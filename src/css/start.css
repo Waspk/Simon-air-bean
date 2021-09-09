@@ -1,0 +1,30 @@
+.landing-page {
+  display: flex;
+  background: #38846d;
+  max-width: 375px;
+  max-height: 667px;
+  width: 375px;
+  height: 667px;
+}
+
+
+.img-content {
+  display: flex;
+  flex-direction: row;
+}
+.logo {
+  position: absolute;
+  width: 257px;
+  height: 47px;
+  left: 58px;
+  top: 266px;
+}
+.img-right {
+  position: absolute;
+  left: 230px;
+}
+
+.loader{
+  display: flex;
+  margin: 0 auto;
+}

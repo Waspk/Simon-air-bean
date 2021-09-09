@@ -1,0 +1,76 @@
+.About {
+	width: 375px;
+	height: 667;
+	position: relative;
+	background: #f3e4e1;
+}
+.About::before {
+	content: '';
+	background: top no-repeat url('../assets/graphics/graphics-header.svg');
+	height: 113px;
+	width: 375px;
+	position: absolute;
+	top: 0;
+}
+
+.About::after {
+	content: '';
+	background: bottom no-repeat url('../assets/graphics/graphics-footer.svg');
+	height: 113px;
+	width: 375px;
+	position: absolute;
+	bottom: 0;
+}
+.content {
+	margin-bottom: 2rem;
+    padding: 1rem;
+    height: 1000px;
+    width: 375px;
+    max-height: 667px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    overflow: scroll;
+}
+.beanInfo {
+	margin-left: 15px;
+    width: 311px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.aboutHeader {
+	margin: 100px 0px 10px 0px;
+	font-family: 'PT Serif', serif;
+}
+.vdContent {
+	text-align: center;
+	margin-bottom: 2rem;
+}
+.vdName {
+	font-family: 'PT Serif', serif;
+	font-size: 1rem;
+	font-weight: 700;
+}
+.vdInfo {
+	font-family: 'PT Serif', serif;
+	font-size: 0.7rem;
+	margin-bottom: 18px;
+}
+.text {
+	font-family: 'Work Sans', sans-serif;
+	line-height: 17px;
+	font-size: 12px;
+	margin-bottom: 0.5rem;
+}
+.strong {
+	font-weight: 600;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 12px;
+}
+.img {
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+}

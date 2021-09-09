@@ -1,0 +1,131 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  height: 100%;
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
+}
+
+@keyframes fadeIn{
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+
+.menu::before {
+  content: "";
+  background: top no-repeat url("../assets/graphics/graphics-header.svg");
+  height: 113px;
+  width: 375px;
+  position: absolute;
+  top: 0;
+}
+
+.menu::after {
+  content: "";
+  background: bottom no-repeat url("../assets/graphics/graphics-footer.svg");
+  height: 113px;
+  width: 375px;
+  position: absolute;
+  bottom: 0;
+}
+
+.menu-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.product-grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0.8rem 2rem;
+}
+
+.product-grid .add {
+  background-color: #2f2926;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  color: rgb(255, 247, 235);
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 1;
+  border: none;
+  cursor: pointer;
+}
+
+.product-grid .add:focus {
+  outline: 0;
+}
+
+.product-grid .title {
+  font-size: 1.3rem;
+  white-space: nowrap;
+  border-bottom: 1px dotted #2f2926;
+}
+
+.product-grid .desc {
+  font-size: 0.7rem;
+  white-space: nowrap;
+}
+
+.product-grid .price {
+  font-size: 1.3rem;
+  align-self: flex-start;
+}
+
+.product-grid .g-center {
+  width: 60%;
+}
+
+
